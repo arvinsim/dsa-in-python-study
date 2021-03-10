@@ -1,3 +1,10 @@
+"""
+=====
+Factorial
+=====
+"""
+
+
 def factorial(n):
     if n == 0:
         return 1
@@ -7,10 +14,15 @@ def factorial(n):
 
 # print(factorial(10))
 
-'''
+"""
+=====
+Binary Search
+=====
 *Mar 10, 2021*
 I modified the code to handle the IndexError exception when data[mid] doesn't exist(mid is out of bounds)
-'''
+"""
+
+
 def binary_search(data, target, low, high):
     if low > high:
         return False
